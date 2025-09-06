@@ -1,3 +1,5 @@
+// Tavoitteena on 1 piste
+
 #include <zephyr/kernel.h>
 #include <zephyr/sys/printk.h>
 #include <zephyr/device.h>
