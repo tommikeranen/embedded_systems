@@ -1,4 +1,5 @@
 // Tavoitteena on 1 piste
+// 1p suorituksen vaatimukset täytetty
 
 #include <zephyr/kernel.h>
 #include <zephyr/sys/printk.h>
