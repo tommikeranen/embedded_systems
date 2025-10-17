@@ -150,6 +150,10 @@ int main(void)
 
 
 	// Parser functionality
+	char buffer[16];
+	int cnt = 0;
+	unsigned char c = 0;
+
 	while (true) {
 
 		if (uart_poll_in(uart_dev,&c) == 0) {
@@ -183,6 +187,7 @@ int main(void)
 				cnt++;
 			}
 		}
+		k_msleep(10);
 	}
 
 	return 0;
